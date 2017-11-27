@@ -34,7 +34,7 @@
     "build-prod": "ng build --prod",
     "build-dev": "ng build --dev",
     "prod-build-and-deploy": "ng build --prod && firebase deploy --project prod",
-    "dev-build-and-deploy": "ng build --staging && firebase deploy --project staging"
+    "dev-build-and-deploy": "ng build --dev && firebase deploy --project dev"
   },
   "dependencies": {
     "@agm/core": "1.0.0-beta.0",
