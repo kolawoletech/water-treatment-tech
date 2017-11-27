@@ -10,4 +10,13 @@
 
 export const environment = {
   production: false,
+  name: 'Development',
+  firebaseConfig: {
+    apiKey: "AIzaSyC69LO8rjL0AzJ_eGr_ns6jIeIAeBQhIRI",
+    authDomain: "water-treatment-tech.firebaseapp.com",
+    databaseURL: "https://water-treatment-tech.firebaseio.com",
+    projectId: "water-treatment-tech",
+    storageBucket: "water-treatment-tech.appspot.com",
+    messagingSenderId: "220771153157"
+  },
 };
