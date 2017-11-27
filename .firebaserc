@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "water-treatment-tech",
+    "dev": "water-treatment-tech"
+  }
+}
