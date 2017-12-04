@@ -1,7 +1,7 @@
 <nb-card size="large">
   <nb-tabset fullWidth>
-
-    <nb-tab tabTitle="Temperature">
+<!--
+    <nb-tab tabTitle="Completion">
 
       <div class="slider-container">
         <ngx-temperature-dragger [(value)]="temperature" (power)="temperatureOff = !$event"
@@ -12,8 +12,8 @@
             <div class="value temperature">
               {{ temperatureOff ? '--' : (temperature | ngxRound) }}
             </div>
-            <div class="desc">
-              Celsius
+             <div class="desc">
+
             </div>
           </div>
         </ngx-temperature-dragger>
@@ -34,9 +34,9 @@
           <input type="radio" value="fan"/><i class="nb-loop-circled"></i>
         </label>
       </div>
-    </nb-tab>
+    </nb-tab>  -->
 
-    <nb-tab tabTitle="Humidity">
+    <nb-tab tabTitle="Completion">
 
       <div class="slider-container">
         <ngx-temperature-dragger [(value)]="humidity" (power)="humidityOff = !$event"
@@ -51,7 +51,7 @@
         </ngx-temperature-dragger>
       </div>
 
-      <div [(ngModel)]="humidityMode" ngbRadioGroup data-toggle="buttons"
+<!--       <div [(ngModel)]="humidityMode" ngbRadioGroup data-toggle="buttons"
            class="btn-group btn-divided-group btn-outline-divided-group btn-group-full-width">
         <label class="btn btn-icon">
           <input type="radio" value="cool"/><i class="nb-snowy-circled"></i>
@@ -65,7 +65,7 @@
         <label class="btn btn-icon">
           <input type="radio" value="fan"/><i class="nb-loop-circled"></i>
         </label>
-      </div>
+      </div> -->
     </nb-tab>
   </nb-tabset>
 </nb-card>

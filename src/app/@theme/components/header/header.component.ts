@@ -27,6 +27,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
     this.userService.getUsers()
       .subscribe((users: any) => this.user = users.nick);
+      //hack with firebase user service
   }
 
   toggleSidebar(): boolean {

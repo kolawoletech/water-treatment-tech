@@ -6,7 +6,7 @@
         <i class="i-contact nb-phone"></i>
       </div>
     </nb-tab>
-    <nb-tab tabTitle="Recent">
+    <nb-tab tabTitle="Recent Chats">
       <div class="contact" *ngFor="let c of recent">
         <nb-user [picture]="c.user.picture" [name]="c.user.name" [title]="c.type" size="large"></nb-user>
         <span class="time">{{ c.time }}</span>
